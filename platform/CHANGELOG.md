@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.1.41](https://github.com/archestra-ai/archestra/compare/platform-v1.1.40...platform-v1.1.41) (2026-03-27)
+
+
+### Features
+
+* expand chat file modalities and llm provider key visibility ([#3574](https://github.com/archestra-ai/archestra/issues/3574)) ([8f0b46c](https://github.com/archestra-ai/archestra/commit/8f0b46c3f9caffcc8f2bb70fbc17f6110c6f3c00))
+
+
+### Bug Fixes
+
+* improve Slack thread context for chatops bot ([#3565](https://github.com/archestra-ai/archestra/issues/3565)) ([c3c538f](https://github.com/archestra-ai/archestra/commit/c3c538f0130572795d4855c317666cd1a5e68aca))
+* mcp apps layout ([#3572](https://github.com/archestra-ai/archestra/issues/3572)) ([6b277cb](https://github.com/archestra-ai/archestra/commit/6b277cb652d0609aa2586ca4ca0671ec0037a1b8))
+* mcp-apps localhost mode firing in prod ([#3566](https://github.com/archestra-ai/archestra/issues/3566)) ([9f20035](https://github.com/archestra-ai/archestra/commit/9f20035574fcf83a45a95e7a9356ce1b9a2ed91a))
+
+
+### Miscellaneous Chores
+
+* refine agent UI controls ([#3570](https://github.com/archestra-ai/archestra/issues/3570)) ([0d9a8ba](https://github.com/archestra-ai/archestra/commit/0d9a8ba052701005d4066248a3b8ab8457c0a619))
+* stabilize remaining e2e and auth follow-ups ([#3559](https://github.com/archestra-ai/archestra/issues/3559)) ([e4ee425](https://github.com/archestra-ai/archestra/commit/e4ee4252a2774f367eacd6469e29eee6812b6f9d))
+
 ## [1.1.40](https://github.com/archestra-ai/archestra/compare/platform-v1.1.39...platform-v1.1.40) (2026-03-26)
 
 
