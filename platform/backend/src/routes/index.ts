@@ -11,6 +11,7 @@ import ollamaProxyRoutesV2 from "./proxy/routesv2/ollama";
 import openAiProxyRoutesV2 from "./proxy/routesv2/openai";
 import openrouterProxyRoutesV2 from "./proxy/routesv2/openrouter";
 import perplexityProxyRoutesV2 from "./proxy/routesv2/perplexity";
+import unifiedProxyRoutesV2 from "./proxy/routesv2/unified";
 import vllmProxyRoutesV2 from "./proxy/routesv2/vllm";
 import xaiProxyRoutesV2 from "./proxy/routesv2/xai";
 import zhipuaiProxyRoutesV2 from "./proxy/routesv2/zhipuai";
@@ -65,6 +66,8 @@ export const zhipuaiProxyRoutes = zhipuaiProxyRoutesV2;
 export const bedrockProxyRoutes = bedrockProxyRoutesV2;
 // MiniMax proxy routes - V2 only (new provider, no legacy v1)
 export const minimaxProxyRoutes = minimaxProxyRoutesV2;
+// Unified proxy route - routes to any provider based on model name
+export const unifiedProxyRoutes = unifiedProxyRoutesV2;
 export { default as secretsRoutes } from "./secrets";
 export { default as statisticsRoutes } from "./statistics";
 export { default as teamRoutes } from "./team";

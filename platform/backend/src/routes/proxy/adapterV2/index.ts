@@ -12,5 +12,6 @@ export { openaiAdapterFactory } from "./openai";
 export { openrouterAdapterFactory } from "./openrouter";
 export { perplexityAdapterFactory } from "./perplexity";
 export { vllmAdapterFactory } from "./vllm";
+export { unifiedAdapterFactory, resolveProviderForModel } from "./unified";
 export { xaiAdapterFactory } from "./xai";
 export { zhipuaiAdapterFactory } from "./zhipuai";
